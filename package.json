@@ -1,19 +1,22 @@
 {
   "name": "todos",
   "version": "1.0.0",
-  "description": "My riveting Nuxt.js project",
+  "description": "todos app built with NuxtJS",
+  "homepage": "https://ikrydev.github.io/todos-nuxt",
   "author": "ikrydev",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0"
+    "@nuxtjs/dotenv": "^1.4.0",
+    "gh-pages": "^2.2.0",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"
