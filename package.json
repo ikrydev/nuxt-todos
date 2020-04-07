@@ -2,7 +2,7 @@
   "name": "todos",
   "version": "1.0.0",
   "description": "todos app built with NuxtJS",
-  "homepage": "https://ikrydev.github.io/todos-nuxt",
+  "homepage": "https://ikrydev.github.io/nuxt-todos/",
   "author": "ikrydev",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
