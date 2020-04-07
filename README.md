@@ -1,6 +1,7 @@
-# todos
+# todos app
 
-> My riveting Nuxt.js project
+- [x] todos app
+- [ ] auth feature
 
 ## Build Setup
 
